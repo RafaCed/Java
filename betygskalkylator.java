@@ -22,23 +22,23 @@ Programmet ska sedan skriva ut vitsordet och ett kort meddelande.
 
         Scanner scanner = new Scanner(System.in);
 
-        // Prompt user to enter the score
+       
         System.out.print("Enter your score: ");
         int score = scanner.nextInt();
 
-        // Determine the numeric grade based on the score
+       
         int grade;
         if (score >= 90 && score <= 100) {
-            grade = 5; // Grade A corresponds to 5
+            grade = 5; 
         } else if (score >= 80 && score <= 89) {
-            grade = 4; // Grade B corresponds to 4
+            grade = 4; 
         } else if (score >= 70 && score <= 79) {
-            grade = 3; // Grade C corresponds to 3
+            grade = 3;
         } else {
-            grade = 2; // Grade D or below corresponds to 2
+            grade = 2; 
         }
 
-        // Output the result
+       
         System.out.println("Your numeric grade is: " + grade);
         
         scanner.close();
