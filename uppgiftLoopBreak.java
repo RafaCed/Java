@@ -9,16 +9,18 @@ public class uppgiftLoopBreak {
     
     public static void main(String args[]) {
         
-        
-        for(int i = 1; i <= 30; i++){
-        if(i == 12){
-           // break;
-        }
-        System.out.println(i);
-        
+        for (int i = 1; i <= 30; i++) {
 
-        }
+            System.out.println(i);
+            if (i == 11) {
+                break;
+
     }
+  }
+        System.out.println("Loop terminated early due to break statement");
+
+    }
+
 }
         
   
